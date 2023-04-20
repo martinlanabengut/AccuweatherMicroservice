@@ -16,19 +16,21 @@ Proyecto basado en Java que recupera datos meteorológicos de la API de AccuWeat
 
 ### Cómo ejecutar
 
-Clonar el repositorio:
+- Clonar el repositorio:
 
 `git clone https://github.com/yourusername/accuweather-challenge.git`
 
 
-Navegar al directorio del proyecto: 
+- Navegar al directorio del proyecto: 
 
 `cd accuweather-challenge`
 
-Compilar y empaquetar el proyecto utilizando Maven:
+-Compilar y empaquetar el proyecto utilizando Maven:
+
 `mvn clean package`
 
-Ejecutar la aplicación.
+- Ejecutar la aplicación.
+
 `java -jar target/accuweather-challenge-0.0.1-SNAPSHOT.jar`
 
 
