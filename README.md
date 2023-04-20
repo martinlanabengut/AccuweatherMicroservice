@@ -4,15 +4,15 @@ Proyecto basado en Java que recupera datos meteorológicos de la API de AccuWeat
 
 ### Requisitos
 
-Java 8 o superior
-Maven
+- Java 8 o superior
+- Maven
 
 ### Dependencias
 
-Spring Boot
-Spring Web
-Spring Test
-Jackson (para el manejo de JSON)
+- Spring Boot
+- Spring Web
+- Spring Test
+- Jackson (para el manejo de JSON)
 
 ### Cómo ejecutar
 
@@ -29,14 +29,16 @@ Ejecutar la aplicación.
 java -jar target/accuweather-challenge-0.0.1-SNAPSHOT.jar
 
 
-Cómo utilizar
+### Cómo utilizar
 
 La aplicación expone un punto final REST para obtener datos meteorológicos basados en la clave de ubicación proporcionada.
 
 Testeo en postman:
 http://localhost:8080/api/weather/{locationKey}
 
-Para obtener más location keys de AccuWeather, puedes seguir los siguientes pasos:
+### Obtener locationKeys 
+
+Para obtener facilmente location keys de AccuWeather, puedes seguir los siguientes pasos:
 
 1) Ingresa al sitio web de AccuWeather (https://www.accuweather.com/).
 2) Busca la ubicación que te interese en la barra de búsqueda ubicada en la parte superior de la página y haz clic en ella.
