@@ -1,11 +1,12 @@
-Desafío AccuWeather
+Challenge AccuWeather
 
-El Desafío AccuWeather es un proyecto basado en Java que recupera datos meteorológicos de la API de AccuWeather. La aplicación utiliza el marco Spring Boot y proporciona una interfaz para consultar el pronóstico del tiempo en una ubicación específica.
+Proyecto basado en Java que recupera datos meteorológicos de la API de AccuWeather. La aplicación utiliza el marco Spring Boot y proporciona una interfaz para consultar el pronóstico del tiempo en una ubicación específica.
 
-Requisitos
+#Requisitos
 
 Java 8 o superior
 Maven
+
 Dependencias
 
 Spring Boot
